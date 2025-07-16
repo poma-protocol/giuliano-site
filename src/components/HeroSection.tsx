@@ -1,0 +1,121 @@
+
+import { ArrowDown, Star, Award, Users } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+export const HeroSection = () => {
+  const scrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
+  };
+
+  return (
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/40"></div>
+      </div>
+
+      <div className="container-max section-padding relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Content */}
+          <div className="text-white animate-fade-in">
+            <div className="mb-6">
+              <div className="flex items-center space-x-2 mb-4">
+                <Star className="h-5 w-5 text-yellow-400 fill-current" />
+                <Star className="h-5 w-5 text-yellow-400 fill-current" />
+                <Star className="h-5 w-5 text-yellow-400 fill-current" />
+                <span className="text-sm text-gray-200">Consulente Culinario Certificato</span>
+              </div>
+              
+              <h1 className="text-4xl md:text-6xl font-playfair font-bold leading-tight mb-6">
+                Trasforma le urgenze di ogni giorno in 
+                <span className="text-gradient"> successi concreti</span>, 
+                con metodo e sorriso
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
+                Con esperienza internazionale e un metodo pratico, ti supporto nel rendere 
+                il menù più efficace, il lavoro più fluido e il team più performante.
+              </p>
+            </div>
+
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-6 mb-8">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-chef-olive">150+</div>
+                <div className="text-sm text-gray-300">Ristoranti</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-chef-olive">25+</div>
+                <div className="text-sm text-gray-300">Anni Esperienza</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-chef-olive">30%</div>
+                <div className="text-sm text-gray-300">Incremento Margini</div>
+              </div>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button 
+                onClick={scrollToContact}
+                size="lg"
+                className="bg-chef-olive hover:bg-chef-olive/90 text-white text-lg px-8 py-4"
+              >
+                Consulenza Gratuita
+                <ArrowDown className="ml-2 h-5 w-5" />
+              </Button>
+              <Button 
+                variant="outline"
+                size="lg"
+                className="border-white text-white hover:bg-white hover:text-chef-charcoal text-lg px-8 py-4"
+                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Scopri di Più
+              </Button>
+            </div>
+          </div>
+
+          {/* Trust Indicators */}
+          <div className="lg:block hidden animate-slide-in-left">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
+              <h3 className="text-2xl font-playfair font-bold text-white mb-6">
+                Riconoscimenti
+              </h3>
+              
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <Award className="h-6 w-6 text-yellow-400" />
+                  <span className="text-white">Consulente Michelin Guide</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Users className="h-6 w-6 text-chef-olive" />
+                  <span className="text-white">Formatore Certificato HACCP</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Star className="h-6 w-6 text-chef-terracotta" />
+                  <span className="text-white">Specialista Menu Engineering</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <ArrowDown className="h-6 w-6 text-white" />
+      </div>
+    </section>
+  );
+};
