@@ -43,7 +43,7 @@ export const AboutSection = () => {
           <div className="animate-slide-in-left">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                src="/lovable-uploads/23965a1f-888e-42ad-8871-afa553241298.png"
                 alt="Giuliano - Chef Consulente"
                 className="rounded-2xl shadow-2xl w-full h-[600px] object-cover"
               />

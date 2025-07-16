@@ -28,17 +28,17 @@ export const Navigation = () => {
       isScrolled ? 'glass-effect shadow-lg' : 'bg-transparent'
     }`}>
       <div className="container-max section-padding">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <ChefHat className="h-8 w-8 text-chef-olive" />
-            <span className="text-xl font-playfair font-bold text-chef-charcoal">
+            <ChefHat className="h-7 w-7 md:h-8 md:w-8 text-chef-olive" />
+            <span className="text-lg md:text-xl font-playfair font-bold text-chef-charcoal">
               Giuliano
             </span>
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
               className="text-chef-charcoal hover:text-chef-olive transition-colors"

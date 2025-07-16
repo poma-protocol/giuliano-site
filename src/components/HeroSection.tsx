@@ -22,14 +22,14 @@ export const HeroSection = () => {
           backgroundRepeat: 'no-repeat'
         }}
       >
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
-      <div className="container-max section-padding relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container-max section-padding relative z-10 py-12 md:py-16">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Content */}
-          <div className="text-white animate-fade-in">
-            <div className="mb-6">
+          <div className="text-white animate-fade-in space-y-6 md:space-y-8">
+            <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Star className="h-5 w-5 text-yellow-400 fill-current" />
                 <Star className="h-5 w-5 text-yellow-400 fill-current" />
@@ -37,31 +37,31 @@ export const HeroSection = () => {
                 <span className="text-sm text-gray-200">Consulente Culinario Certificato</span>
               </div>
               
-              <h1 className="text-4xl md:text-6xl font-playfair font-bold leading-tight mb-6">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair font-bold leading-tight mb-6">
                 Trasforma le urgenze di ogni giorno in 
-                <span className="text-gradient"> successi concreti</span>, 
+                <span className="text-chef-olive drop-shadow-lg"> successi concreti</span>, 
                 con metodo e sorriso
               </h1>
               
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
+              <p className="text-lg sm:text-xl md:text-2xl text-gray-200 leading-relaxed">
                 Con esperienza internazionale e un metodo pratico, ti supporto nel rendere 
                 il menù più efficace, il lavoro più fluido e il team più performante.
               </p>
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-3 gap-4 md:gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-chef-olive">150+</div>
-                <div className="text-sm text-gray-300">Ristoranti</div>
+                <div className="text-2xl md:text-3xl font-bold text-chef-olive">150+</div>
+                <div className="text-xs md:text-sm text-gray-300">Ristoranti</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-chef-olive">25+</div>
-                <div className="text-sm text-gray-300">Anni Esperienza</div>
+                <div className="text-2xl md:text-3xl font-bold text-chef-olive">25+</div>
+                <div className="text-xs md:text-sm text-gray-300">Anni Esperienza</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-chef-olive">30%</div>
-                <div className="text-sm text-gray-300">Incremento Margini</div>
+                <div className="text-2xl md:text-3xl font-bold text-chef-olive">30%</div>
+                <div className="text-xs md:text-sm text-gray-300">Incremento Margini</div>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ export const HeroSection = () => {
               <Button 
                 onClick={scrollToContact}
                 size="lg"
-                className="bg-chef-olive hover:bg-chef-olive/90 text-white text-lg px-8 py-4"
+                className="bg-chef-olive hover:bg-chef-olive/90 text-white text-base md:text-lg px-6 md:px-8 py-3 md:py-4"
               >
                 Consulenza Gratuita
                 <ArrowDown className="ml-2 h-5 w-5" />
@@ -78,7 +78,7 @@ export const HeroSection = () => {
               <Button 
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white hover:text-chef-charcoal text-lg px-8 py-4"
+                className="border-white text-white hover:bg-white hover:text-chef-charcoal text-base md:text-lg px-6 md:px-8 py-3 md:py-4"
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Scopri di Più
