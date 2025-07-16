@@ -78,7 +78,7 @@ export const HeroSection = () => {
               <Button 
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white hover:text-chef-charcoal text-base md:text-lg px-6 md:px-8 py-3 md:py-4"
+                className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-chef-charcoal text-base md:text-lg px-6 md:px-8 py-3 md:py-4"
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Scopri di Più
