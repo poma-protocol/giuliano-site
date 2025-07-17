@@ -9,29 +9,9 @@ export const ServicesSection = () => {
       title: "Menu Engineering",
       description: "Ottimizzazione dei menù per massimizzare profittabilità e soddisfazione del cliente",
       benefits: [
-        "Analisi marginalità per piatto",
+        "Controllo costi",
         "Redesign menu strategico",
-        "Aumento revenue 25-40%"
-      ]
-    },
-    {
-      icon: <BarChart3 className="h-8 w-8" />,
-      title: "Controllo Costi",
-      description: "Sistemi di controllo per ridurre sprechi e ottimizzare gli acquisti",
-      benefits: [
-        "Riduzione sprechi 30%",
-        "Analisi food cost dettagliata",
-        "Sistema inventario automatizzato"
-      ]
-    },
-    {
-      icon: <Users className="h-8 w-8" />,
-      title: "Team Training",
-      description: "Formazione personalizzata per equipaggi di cucina e sala",
-      benefits: [
-        "Protocolli operativi standard",
-        "Miglioramento efficienza 40%",
-        "Certificazioni HACCP"
+        "Riduzione sprechi"
       ]
     },
     {
@@ -39,29 +19,19 @@ export const ServicesSection = () => {
       title: "Consulenza Operativa",
       description: "Supporto diretto in cucina per ottimizzare processi e workflow",
       benefits: [
-        "Reorganizzazione postazioni",
+        "Riorganizzazione postazioni",
         "Standardizzazione ricette",
         "Controllo qualità"
       ]
     },
     {
-      icon: <Calculator className="h-8 w-8" />,
-      title: "Business Plan Ristorazione",
-      description: "Pianificazione strategica per nuove aperture e ristrutturazioni",
+      icon: <Users className="h-8 w-8" />,
+      title: "Team Training",
+      description: "Formazione personalizzata per staff di cucina",
       benefits: [
-        "Analisi di mercato",
-        "Proiezioni finanziarie",
-        "Piano investimenti"
-      ]
-    },
-    {
-      icon: <TrendingUp className="h-8 w-8" />,
-      title: "Digital Marketing F&B",
-      description: "Strategie digitali specifiche per il settore food & beverage",
-      benefits: [
-        "Social media strategy",
-        "Gestione recensioni online",
-        "Aumento visibilità 60%"
+        "Protocolli operativi standard",
+        "Miglioramento efficienza operativa",
+        "Procedure conformi HACCP"
       ]
     }
   ];
@@ -81,7 +51,7 @@ export const ServicesSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card 
               key={index}

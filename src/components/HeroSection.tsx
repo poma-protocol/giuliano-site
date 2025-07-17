@@ -30,17 +30,9 @@ export const HeroSection = () => {
           {/* Content */}
           <div className="text-white animate-fade-in space-y-6 md:space-y-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <Star className="h-5 w-5 text-yellow-400 fill-current" />
-                <Star className="h-5 w-5 text-yellow-400 fill-current" />
-                <Star className="h-5 w-5 text-yellow-400 fill-current" />
-                <span className="text-sm text-gray-200">Consulente Culinario Certificato</span>
-              </div>
-              
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair font-bold leading-tight mb-6">
                 Trasforma le urgenze di ogni giorno in 
-                <span className="text-chef-olive drop-shadow-lg"> successi concreti</span>, 
-                con metodo e sorriso
+                <span className="text-chef-olive drop-shadow-lg"> successi concreti</span>
               </h1>
               
               <p className="text-lg sm:text-xl md:text-2xl text-gray-200 leading-relaxed">
@@ -52,16 +44,16 @@ export const HeroSection = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 md:gap-6">
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-chef-olive">150+</div>
+                <div className="text-2xl md:text-3xl font-bold text-chef-olive">10+</div>
+                <div className="text-xs md:text-sm text-gray-300">Anni di esperienza</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-chef-olive">30+</div>
                 <div className="text-xs md:text-sm text-gray-300">Ristoranti</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-chef-olive">25+</div>
-                <div className="text-xs md:text-sm text-gray-300">Anni Esperienza</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-chef-olive">30%</div>
-                <div className="text-xs md:text-sm text-gray-300">Incremento Margini</div>
+                <div className="text-2xl md:text-3xl font-bold text-chef-olive">200+</div>
+                <div className="text-xs md:text-sm text-gray-300">ore di formazione erogate</div>
               </div>
             </div>
 
@@ -90,21 +82,21 @@ export const HeroSection = () => {
           <div className="lg:block hidden animate-slide-in-left">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
               <h3 className="text-2xl font-playfair font-bold text-white mb-6">
-                Riconoscimenti
+                Hai bisogno di:
               </h3>
               
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Award className="h-6 w-6 text-yellow-400" />
-                  <span className="text-white">Consulente Michelin Guide</span>
+                  <span className="text-white">Supporto extra per eventi, catering o nei momenti di picco</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Users className="h-6 w-6 text-chef-olive" />
-                  <span className="text-white">Formatore Certificato HACCP</span>
+                  <span className="text-white">Un menu più strategico, efficace e profittevole</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Star className="h-6 w-6 text-chef-terracotta" />
-                  <span className="text-white">Specialista Menu Engineering</span>
+                  <span className="text-white">Potenziare le competenze del tuo staff di cucina</span>
                 </div>
               </div>
             </div>

@@ -5,28 +5,18 @@ export const AboutSection = () => {
   const achievements = [
     {
       icon: <Award className="h-6 w-6" />,
-      title: "25+ anni di esperienza",
+      title: "10+ anni di esperienza",
       description: "In cucine stellate e ristoranti internazionali"
     },
     {
-      icon: <Globe className="h-6 w-6" />,
-      title: "Esperienza globale",
-      description: "Consulenze in Europa, Asia e America"
-    },
-    {
       icon: <Users className="h-6 w-6" />,
-      title: "150+ ristoranti",
-      description: "Supportati nel loro percorso di crescita"
-    },
-    {
-      icon: <ChefHat className="h-6 w-6" />,
-      title: "Consulente Michelin",
-      description: "Collaborazioni con ristoranti stellati"
+      title: "30+ ristoranti",
+      description: "Affiancati verso risultati concreti"
     },
     {
       icon: <BookOpen className="h-6 w-6" />,
-      title: "Formatore certificato",
-      description: "HACCP, sicurezza alimentare e management"
+      title: "Formatore professionale",
+      description: "HACCP, management e tecniche di ristorazione"
     },
     {
       icon: <Briefcase className="h-6 w-6" />,
@@ -47,36 +37,30 @@ export const AboutSection = () => {
                 alt="Giuliano - Chef Consulente"
                 className="rounded-2xl shadow-2xl w-full h-[600px] object-cover"
               />
-              <div className="absolute -bottom-6 -right-6 bg-chef-olive text-white p-6 rounded-2xl shadow-lg">
-                <div className="text-3xl font-bold">30%</div>
-                <div className="text-sm">Incremento medio marginalità clienti</div>
-              </div>
             </div>
           </div>
 
           {/* Content Side */}
           <div className="animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-chef-charcoal mb-6">
-              Chi è Giuliano
+              Chi sono
             </h2>
             
             <div className="text-lg text-chef-charcoal/80 space-y-6 mb-8 leading-relaxed">
               <p>
-                <strong className="text-chef-olive">25 anni di passione culinaria</strong> mi hanno portato 
-                dalle cucine stellate di Parigi ai ristoranti innovativi di Tokyo, 
-                accumulando un bagaglio di esperienza unico nel panorama della consulenza F&B.
+                Chef e consulente con oltre 15 anni di esperienza maturata in ristoranti Michelin, resort a cinque stelle e catering internazionali.
               </p>
               
               <p>
-                La mia missione è semplice: <strong>trasformare le sfide quotidiane in opportunità concrete</strong>. 
-                Non parlo solo di numeri, ma di persone, di team che lavorano meglio insieme, 
-                di clienti che tornano soddisfatti.
+                • Cucina italiana e mediterranea contemporanea, tecniche CBT e plant based; sviluppo di menù ad alta marginalità con rigoroso controllo del food cost.
               </p>
               
               <p>
-                Quello che mi distingue? Un approccio <strong className="text-chef-terracotta">pratico e umano</strong>, 
-                dove ogni soluzione nasce dall'ascolto delle tue reali necessità. Perché dietro ogni 
-                ristorante di successo c'è sempre una squadra che crede nel progetto.
+                • Coordinamento di brigate fino a 25 professionisti e fino a 500 coperti al giorno; ottimizzazione dei flussi di lavoro e piena conformità agli standard HACCP.
+              </p>
+              
+              <p>
+                • Lavoro di squadra, gestione dello stress e problem solving efficace. Comunicazione fluente in italiano, inglese e spagnolo.
               </p>
             </div>
 

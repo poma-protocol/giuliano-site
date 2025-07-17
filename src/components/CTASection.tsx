@@ -7,48 +7,37 @@ export const CTASection = () => {
   const contactMethods = [
     {
       icon: <Phone className="h-6 w-6" />,
-      title: "Chiamata diretta",
-      subtitle: "Risposta immediata",
-      contact: "+39 333 123 4567",
-      action: "tel:+393331234567",
-      primary: true
-    },
-    {
-      icon: <MessageCircle className="h-6 w-6" />,
-      title: "WhatsApp",
-      subtitle: "Chat veloce",
-      contact: "Invia messaggio",
-      action: "https://wa.me/393331234567",
+      title: "Chiamata diretta o WhatsApp",
+      subtitle: "Valutiamo insieme obiettivi e opportunità per una collaborazione efficace",
+      contact: "+39 349 216 9864",
+      action: "tel:+393492169864",
       primary: true
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
       subtitle: "Documenti e dettagli",
-      contact: "giuliano@culinary.it",
-      action: "mailto:giuliano@culinary.it"
+      contact: "giuliano.iusco@gmail.com",
+      action: "mailto:giuliano.iusco@gmail.com"
     },
     {
       icon: <Instagram className="h-6 w-6" />,
       title: "Instagram",
       subtitle: "Portfolio visivo",
-      contact: "@giuliano_chef",
-      action: "https://instagram.com/giuliano_chef"
+      contact: "@iuscoforfood",
+      action: "https://instagram.com/iuscoforfood"
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
       title: "LinkedIn",
       subtitle: "Network professionale",
-      contact: "Giuliano Rossi",
-      action: "https://linkedin.com/in/giuliano-chef"
+      contact: "Giuliano Iusco",
+      action: "https://linkedin.com/in/giuliano-iusco"
     }
   ];
 
   const benefits = [
-    "Consulenza iniziale gratuita di 30 minuti",
-    "Analisi personalizzata della tua situazione",
-    "Piano d'azione concreto e immediato",
-    "Supporto continuo durante l'implementazione"
+    "Prima chiamata gratuita di 15 minuti"
   ];
 
   return (
@@ -74,8 +63,7 @@ export const CTASection = () => {
             </h2>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Non aspettare che i problemi si accumulino. Ogni giorno che passa senza 
-              un'ottimizzazione è un'opportunità persa. Parliamone insieme, senza impegno.
+              Valutiamo insieme obiettivi e opportunità per una collaborazione efficace. Parliamone insieme, senza impegno.
             </p>
 
             {/* Benefits */}
@@ -96,7 +84,7 @@ export const CTASection = () => {
                     <MapPin className="h-5 w-5 text-chef-olive" />
                     <div>
                       <div className="text-white font-medium">Zona operativa</div>
-                      <div className="text-gray-300 text-sm">Italia + consulenze remote</div>
+                      <div className="text-gray-300 text-sm">Puglia + consulenze remote</div>
                     </div>
                   </div>
                 </CardContent>
@@ -163,21 +151,6 @@ export const CTASection = () => {
                 ))}
               </div>
 
-              {/* Emergency Contact */}
-              <div className="mt-8 p-6 bg-chef-terracotta/10 rounded-xl border border-chef-terracotta/20">
-                <h4 className="font-semibold text-chef-charcoal mb-2">
-                  📞 Urgenze operative
-                </h4>
-                <p className="text-chef-charcoal/70 text-sm mb-3">
-                  Per emergenze durante il servizio o situazioni critiche
-                </p>
-                <Button 
-                  className="w-full bg-chef-terracotta hover:bg-chef-terracotta/90 text-white"
-                  onClick={() => window.open('tel:+393331234567', '_self')}
-                >
-                  Chiama ora: +39 333 123 4567
-                </Button>
-              </div>
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ export const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4">
               <a 
-                href="https://instagram.com/giuliano_chef" 
+                href="https://instagram.com/iuscoforfood" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-chef-olive transition-colors"
@@ -32,7 +32,7 @@ export const Footer = () => {
                 <Instagram className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com/in/giuliano-chef" 
+                href="https://linkedin.com/in/giuliano-iusco" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-chef-olive transition-colors"
@@ -40,13 +40,13 @@ export const Footer = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a 
-                href="mailto:giuliano@culinary.it"
+                href="mailto:giuliano.iusco@gmail.com"
                 className="text-gray-400 hover:text-chef-olive transition-colors"
               >
                 <Mail className="h-6 w-6" />
               </a>
               <a 
-                href="tel:+393331234567"
+                href="tel:+393492169864"
                 className="text-gray-400 hover:text-chef-olive transition-colors"
               >
                 <Phone className="h-6 w-6" />
@@ -59,11 +59,8 @@ export const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Servizi</h4>
             <ul className="space-y-2 text-gray-300">
               <li><a href="#services" className="hover:text-chef-olive transition-colors">Menu Engineering</a></li>
-              <li><a href="#services" className="hover:text-chef-olive transition-colors">Controllo Costi</a></li>
-              <li><a href="#services" className="hover:text-chef-olive transition-colors">Team Training</a></li>
               <li><a href="#services" className="hover:text-chef-olive transition-colors">Consulenza Operativa</a></li>
-              <li><a href="#services" className="hover:text-chef-olive transition-colors">Business Plan</a></li>
-              <li><a href="#services" className="hover:text-chef-olive transition-colors">Digital Marketing</a></li>
+              <li><a href="#services" className="hover:text-chef-olive transition-colors">Team Training</a></li>
             </ul>
           </div>
 
@@ -73,25 +70,21 @@ export const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div>
                 <div className="text-sm text-gray-400">Telefono</div>
-                <a href="tel:+393331234567" className="hover:text-chef-olive transition-colors">
-                  +39 333 123 4567
+                <a href="tel:+393492169864" className="hover:text-chef-olive transition-colors">
+                  +39 349 216 9864
                 </a>
               </div>
               <div>
                 <div className="text-sm text-gray-400">Email</div>
-                <a href="mailto:giuliano@culinary.it" className="hover:text-chef-olive transition-colors">
-                  giuliano@culinary.it
+                <a href="mailto:giuliano.iusco@gmail.com" className="hover:text-chef-olive transition-colors">
+                  giuliano.iusco@gmail.com
                 </a>
               </div>
               <div>
                 <div className="text-sm text-gray-400">WhatsApp</div>
-                <a href="https://wa.me/393331234567" className="hover:text-chef-olive transition-colors">
+                <a href="https://wa.me/393492169864" className="hover:text-chef-olive transition-colors">
                   Invia messaggio
                 </a>
-              </div>
-              <div>
-                <div className="text-sm text-gray-400">Zona operativa</div>
-                <span>Italia + Remote</span>
               </div>
             </div>
           </div>
@@ -104,11 +97,6 @@ export const Footer = () => {
               © {currentYear} Giuliano Consulenza Culinaria. Tutti i diritti riservati.
             </div>
             
-            <div className="flex items-center space-x-1 text-gray-400 text-sm">
-              <span>Fatto con</span>
-              <Heart className="h-4 w-4 text-chef-terracotta fill-current" />
-              <span>per la ristorazione italiana</span>
-            </div>
           </div>
         </div>
       </div>
