@@ -90,7 +90,7 @@ export const CTASection = () => {
                 </CardContent>
               </Card>
               
-              {/* <Card className="bg-white/10 backdrop-blur-md border-white/20">
+              <Card className="bg-white/10 backdrop-blur-md border-white/20">
                 <CardContent className="p-4">
                   <div className="flex items-center space-x-3">
                     <Clock className="h-5 w-5 text-chef-olive" />
@@ -100,7 +100,7 @@ export const CTASection = () => {
                     </div>
                   </div>
                 </CardContent>
-              </Card> */}
+              </Card>
             </div>
           </div>
 
