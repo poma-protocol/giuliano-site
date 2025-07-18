@@ -30,12 +30,12 @@ export const HeroSection = () => {
           {/* Content */}
           <div className="text-white animate-fade-in space-y-6 md:space-y-8">
             <div>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair font-bold leading-tight mb-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-bold leading-tight mb-6">
                 Trasforma le urgenze di ogni giorno in 
                 <span className="text-chef-olive drop-shadow-lg"> successi concreti</span>
               </h1>
               
-              <p className="text-lg sm:text-xl md:text-2xl text-gray-200 leading-relaxed">
+              <p className="text-lg sm:text-lg md:text-xl text-gray-200 leading-relaxed">
                 Con esperienza internazionale e un metodo pratico, ti supporto nel rendere 
                 il menù più efficace, il lavoro più fluido e il team più performante.
               </p>
