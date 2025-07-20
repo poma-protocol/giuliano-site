@@ -11,7 +11,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex py-20 sm:items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/background.jpeg)' }}>
+    <section id="home" className="relative min-h-screen flex py-20 lg:items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/background.jpeg)' }}>
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
