@@ -11,7 +11,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex py-20 lg:items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/background.jpeg)' }}>
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/background.jpeg)' }}>
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
@@ -30,7 +30,7 @@ export const HeroSection = () => {
           {/* Content */}
           <div className="text-white animate-fade-in  md:space-y-8">
             <div>
-              <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-bold leading-tight mb-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-bold leading-tight mb-6">
                 Trasforma le urgenze di ogni giorno in 
                 <span className="text-chef-olive drop-shadow-lg"> successi concreti</span>
               </h1>
