@@ -48,7 +48,7 @@ export const AboutSection = () => {
             
             <div className="text-lg text-chef-charcoal/80 space-y-6 mb-8 leading-relaxed">
               <p>
-                Chef e consulente con oltre 15 anni di esperienza maturata in ristoranti Michelin, resort a cinque stelle e catering internazionali.
+                Chef e consulente con oltre 10 anni di esperienza maturata in ristoranti Michelin, resort a cinque stelle e catering internazionali.
               </p>
               
               <p>
