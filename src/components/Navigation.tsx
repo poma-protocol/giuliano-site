@@ -79,7 +79,7 @@ export const Navigation = () => {
             {isMobileMenuOpen ? (
               <X className="h-6 w-6 text-chef-charcoal" />
             ) : (
-              <Menu className="h-6 w-6 text-chef-charcoal" />
+              <Menu className="h-6 w-6 text-chef-olive" />
             )}
           </button>
         </div>
