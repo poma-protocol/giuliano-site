@@ -32,7 +32,7 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <ChefHat className="h-7 w-7 md:h-8 md:w-8 text-chef-olive" />
-            <span className="text-lg md:text-xl font-playfair font-bold text-chef-terracotta">
+            <span className="text-lg md:text-xl font-playfair font-bold text-chef-olive">
               Giuliano
             </span>
           </div>
@@ -41,25 +41,25 @@ export const Navigation = () => {
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-chef-terracotta hover:text-chef-olive transition-colors"
+              className="text-chef-olive hover:text-chef-terracotta transition-colors"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-chef-terracotta hover:text-chef-olive transition-colors"
+              className="text-chef-olive hover:text-chef-terracotta transition-colors"
             >
               Servizi
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-chef-terracotta hover:text-chef-olive transition-colors"
+              className="text-chef-olive hover:text-chef-terracotta transition-colors"
             >
               Chi Sono
             </button>
             <button 
               onClick={() => scrollToSection('gallery')}
-              className="text-chef-terracotta hover:text-chef-olive transition-colors"
+              className="text-chef-olive hover:text-chef-terracotta transition-colors"
             >
               Progetti
             </button>
