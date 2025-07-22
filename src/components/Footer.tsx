@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <ChefHat className="h-8 w-8 text-chef-olive" />
               <span className="text-2xl font-playfair font-bold text-white">
-                Giuliano
+                SosCucina
               </span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
