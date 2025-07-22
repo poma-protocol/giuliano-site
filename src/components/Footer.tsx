@@ -94,7 +94,7 @@ export const Footer = () => {
         <div className="border-t border-chef-charcoal/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} Giuliano Consulenza Culinaria. Tutti i diritti riservati.
+              © {currentYear} SosCucina Consulenza Culinaria. Tutti i diritti riservati.
             </div>
             
           </div>
