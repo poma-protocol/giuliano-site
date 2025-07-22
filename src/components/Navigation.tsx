@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X, ChefHat } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const Navigation = () => {
@@ -31,7 +31,9 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <ChefHat className="h-7 w-7 md:h-8 md:w-8 text-chef-olive" />
+            <div className="h-7 w-7 md:h-8 md:w-8 object-fill">
+              <img src='/logo-svg.svg' alt='site logo'/>
+            </div>
             <span className="text-lg md:text-xl font-playfair font-bold text-chef-olive">
               Giuliano
             </span>
