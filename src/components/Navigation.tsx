@@ -35,7 +35,7 @@ export const Navigation = () => {
               <img src='/logo-svg.svg' alt='site logo'/>
             </div>
             <span className="text-lg md:text-xl font-playfair font-bold text-chef-olive">
-              Giuliano
+              SosCucina
             </span>
           </div>
 
